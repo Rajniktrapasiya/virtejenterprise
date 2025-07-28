@@ -23,7 +23,7 @@ const Logo: React.FC<LogoProps> = ({ className, textClassName = 'text-slate-800'
           <stop offset="100%" style={{ stopColor: '#1A1A1A' }} />
         </linearGradient>
       </defs>
-      
+
       {/* Icon */}
       <g transform="translate(0, 5)">
         <path
@@ -37,7 +37,7 @@ const Logo: React.FC<LogoProps> = ({ className, textClassName = 'text-slate-800'
         <path d="M55 45 H 80 V 55 H 55 Z" fill="url(#goldGradient)" />
         <path d="M55 60 H 80 V 70 H 55 Z" fill="url(#goldGradient)" />
       </g>
-      
+
       {/* Text */}
       <text
         x="120"

@@ -59,7 +59,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative h-[60vh] md:h-[80vh] bg-cover bg-center bg-fixed text-white" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1618498119106-2c545224582d?q=80&w=1920&auto=format&fit=crop')" }}>
+      <section className="relative h-[60vh] md:h-[80vh] bg-cover bg-center bg-fixed text-white" style={{ backgroundImage: "url('/images/homepage-banner-1.jpg')" }}>
         <div className="absolute inset-0 bg-slate-900 bg-opacity-60" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
           <AnimatedSection>
