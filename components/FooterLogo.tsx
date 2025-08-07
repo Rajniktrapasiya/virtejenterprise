@@ -7,7 +7,7 @@ interface LogoProps {
 const FooterLogo: React.FC<LogoProps> = ({ className }) => {
   return (
       <img
-          src="/images/VTEJ-LOGO-white.png"
+          src="/images/VTEJ-LOGO-white.jpeg"
           alt="VTEJ Enterprise Logo"
           className={className}
       />
